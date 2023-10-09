@@ -13,7 +13,7 @@ let name: string = "Max"; // name - це рядок
 let toggle: boolean = true; // toggle - це булеве значення
 let empty: null = null; // empty - це null
 let notInitialize: undefined; // notInitialize - це undefined
-let callback: (a: number) => number = (a) => {
+let callback: (a: number) => number = (a: number) => {
   return 100 + a;
 };
 export {};
